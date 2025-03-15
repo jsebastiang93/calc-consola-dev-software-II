@@ -1,9 +1,7 @@
 def sumar(a, b):
-    
-    while b > 0:
-        a += 1
-        b -= 1
-    while b < 0:
+    c = b
+    while a > 0:
         a -= 1
-        b += 1
-    return a
+        c += 1
+        
+    return c
