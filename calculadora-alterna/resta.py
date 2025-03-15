@@ -8,4 +8,4 @@ def restar(a, b):
             a -= 1  # Decrementa a hasta que sea igual a b
         return c
     else:
-        return "La resta no es posible ya que el primer número es menor al segundo número."
+        return "Advertencia: La resta no es posible ya que el primer número es menor al segundo número."
