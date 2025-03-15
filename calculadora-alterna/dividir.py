@@ -1,5 +1,5 @@
-import suma.py
-import resta.py
+from suma import sumar
+from resta import restar
 
 def dividir(a, b):
     

@@ -1,7 +1,3 @@
 def restar(a, b):
-    """Resta dos números usando el complemento a dos."""
-    while b != 0:
-        borrow = (~a) & b
-        a = a ^ b
-        b = borrow << 1
-    return a
+    """Resta dos números usando suma y complemento a dos."""
+    return a + (~b + 1)  # Equivalente a a - b

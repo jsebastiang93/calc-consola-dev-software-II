@@ -1,4 +1,4 @@
-import suma.py
+from suma import sumar
 
 def multiplicar(a, b):
     
