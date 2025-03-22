@@ -3,7 +3,8 @@ from suma import sumar
 
 def multiplicar(a, b):
     if a < 0 or b < 0:
-        return "Advertencia: Solo se permiten números positivos."
+        print("Advertencia: Solo se permiten números positivos.")
+        return 0
     
     c = 0
     while a > 0:
